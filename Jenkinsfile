@@ -1,5 +1,5 @@
 node('master')   {
-      def dockerImageName= 'yashaswi/javadedockerapp_$JOB_NAME:$BUILD_NUMBER'
+      def dockerImageName= 'yashaswi0789/javadedockerapp_$JOB_NAME:$BUILD_NUMBER'
       stage('SCM Checkout'){
          git 'https://github.com/Yashaswirajagopal/java-groovy-docker.git'          
       }
